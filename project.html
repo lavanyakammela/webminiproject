@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="lavanya">
+    <meta name="description" content="The official website for the little tiffin shop">
+    <title>The Little Tiffin Shop </title>
+    <link rel="icon" href="html5.png" type="image/x-icon">
+    <link rel="stylesheet" href="project.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header_h1">Little Tiffin Shop</h1>
+        <nav class="header_nav">
+            <ul class="header_ul">
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                </ul>
+        </nav>
+    </header>
+     
+       <section class="hero">
+        <h2 class="hero_h2">Breakfast</h2>
+        <figure>
+            <img src="tiff.jpg" alt="Tiffins" title="we love Tiffin" width="1000" height="600">
+            <figcaption class="offscreen">Tiffins</figcaption>
+        </figure>
+       </section>
+    <main class="main">
+       
+       <article id="menu" class="main_article menu">
+        <h2 class="menu__h2">Our Menu</h2>
+        <table class="menu__container">
+            <caption class="offscreen">Our Breakfast</caption>
+            <thead>
+                <tr>
+                    <th class="menu__header" scope="col">Breakfast</th>
+                    <th class="menu__header" scope="col">Qty</th>
+                    <th class="menu__header" scope="col">Price</th>
+                </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th class="menu__item menu__id" scope="row" rowspan="3">Idle</th>
+            <td class="menu__item">1</td>
+            <td class="menu__item">₹30</td>
+        </tr>
+        <tr>
+        <td class="menu__item">2</td>
+        <td class="menu__item">₹60</td>
+    </tr>
+    <tr>
+        <td class="menu__item">3</td>
+        <td class="menu__item">₹90</td>
+    </tr>
+    <tr>
+        <th class="menu__item menu__ds" scope="row" rowspan="3">
+            Dosa
+        </th>
+    <td class="menu__item">1</td>
+    <td class="menu__item">₹40</td>
+</tr>
+     <tr>
+        <td class="menu__item">2</td>
+        <td class="menu__item">₹80</td>
+     </tr>
+ <tr>
+    <td class="menu__item">3</td>
+    <td class="menu__item">₹120</td>
+</tr>
+</tbody>
+<tfoot>
+    <tr>
+        <td class="menu__item menu__ch" colspan="3">Chapathi &amp; Puri ₹30</td>
+    </tr>
+</tfoot>
+</table>
+        <p class="center">
+        <a href="#">Back to top</a>
+        </p>
+       </article>
+    </main>
+    
+    <footer class="footer">
+        <p>
+            <span class="nowrap">Copyright &copy;<time id="year"></time></span>
+             <span class="nowrap">Little Tiffin Shop</span> </p>
+    </footer>
+</body>
+</html>
